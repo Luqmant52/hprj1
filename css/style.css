@@ -1,0 +1,16 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.header{
+    height: 100vh;
+    border: 2px solid green;
+    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.5)), url("../img/header-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
