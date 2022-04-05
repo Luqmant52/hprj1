@@ -6,11 +6,40 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-.header{
-    height: 100vh;
-    border: 2px solid green;
-    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.5)), url("../img/header-image.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.header {
+  height: 100vh;
+  border: 2px solid green;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
+    url("../img/header-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+html {
+  font-size: 16px;
+}
+.header .logo,
+.header .navbar a {
+  color: white;
+}
+.navbar {
+  border: 2px solid white;
+}
+.header .navbar .logo {
+  float: left;
+}
+.header .navbar .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.header .navbar .nav-items {
+  float: right;
+}
+.navbar::after {
+  content: "";
+  display: block;
+  clear: both;
 }
