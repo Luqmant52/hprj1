@@ -20,7 +20,7 @@ a {
   font-size: 1.6rem;
 }
 .header {
-  height: 95vh;
+  height: 100vh;
   border: 2px solid green;
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)),
     url("../img/header-image.jpg");
@@ -184,12 +184,11 @@ h3 {
   padding: 10rem 0;
 }
 .box-wraper {
-  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 05px 05px 10px rgba(102, 102, 102, 0.521);
 }
 .box {
   width: 33.3333333333%;
   float: left;
-  border: 2px solid #000;
   padding: 2rem;
   text-align: center;
 }
@@ -200,10 +199,20 @@ h3 {
 }
 .box-2 {
   color: #ddd;
-  background: #e63946;
+  background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
 }
 .box-wraper::after {
   content: "";
   display: block;
   clear: both;
+}
+/* ######################## footer ########################  */
+.footer{
+  background: #242424;
+  color: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+.social-media-links i{
+  margin: 2rem;
 }
