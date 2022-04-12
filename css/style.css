@@ -33,14 +33,14 @@ a {
   /* border: 2px solid white; */
   padding: 1rem;
 }
-.header .navbar .logo {
+.navbar .logo {
   float: left;
 }
-.header .navbar .nav-items {
+.navbar .nav-items {
   float: right;
   margin-top: 1rem;
 }
-.header .navbar .nav-item {
+.navbar .nav-item {
   display: inline-block;
   padding: 1rem;
   text-transform: uppercase;
@@ -50,7 +50,7 @@ a {
   display: block;
   clear: both;
 }
-.header .navbar .nav-item a {
+.navbar .nav-item a {
   text-decoration: none;
 }
 p,
@@ -139,6 +139,9 @@ h3 {
   border: 2px solid #555555;
   color: #fff;
 }
+.bg-dark {
+  background-color: #263238;
+}
 /* ------------------------ Section Styling ------------------------ */
 .showcase {
   background: #ddd;
@@ -207,12 +210,89 @@ h3 {
   clear: both;
 }
 /* ######################## footer ########################  */
-.footer{
+.footer {
   background: #242424;
   color: #f4f4f4;
   padding: 2rem;
   text-align: center;
 }
-.social-media-links i{
+.social-media-links i {
   margin: 2rem;
+}
+
+/* /////////////////////////////////////////////////////////////////////////About/////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////About/////////////////////////////////////////////// */
+.about {
+  padding: 5rem 0;
+}
+.about-heading::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #e63946;
+}
+/* /////////////////////////////////////////// About Wrapper //////////////////////////////////////// */
+.about-wraper {
+  margin-top: 2rem;
+  text-align: center;
+}
+.about-wraper .left {
+  float: left;
+  width: 50%;
+}
+.about-wraper .right {
+  float: left;
+  width: 50%;
+}
+.about-wraper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.about-wraper li::before {
+  content: "\2713";
+  color: #e63946;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+/* ############################ Count Styling ############################ */
+.counts {
+  margin-top: 3rem;
+}
+.count-item {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.counts::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.count-item span {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e63946;
+}
+.count-item p {
+  font-weight: 700;
+  color: #555;
+  font-size: 1.8rem;
+}
+/* ########################## Banner Styling ############################# */
+.cta-banner {
+  background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+  color: #f4f4f4;
+}
+.cta-banner-left {
+  width: 60%;
+  float: left;
+}
+.cta-banner-right {
+  width: 40%;
+  float: right;
+}
+.cta-banner::after {
+  content: "";
+  display: block;
+  clear: both;
 }
