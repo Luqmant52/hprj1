@@ -282,6 +282,9 @@ h3 {
 .cta-banner {
   background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
   color: #f4f4f4;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px #00000057;
+  margin-top: 3rem;
 }
 .cta-banner-left {
   width: 60%;
@@ -290,9 +293,49 @@ h3 {
 .cta-banner-right {
   width: 40%;
   float: right;
+  text-align: right;
+}
+.cta-line {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1.5rem;
+}
+.cta-btn {
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  border: 4px solid white;
+  padding: 0.3rem 2.5rem;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
 }
 .cta-banner::after {
   content: "";
   display: block;
   clear: both;
+}
+/* ###################### Form Styling ###################### */
+.contact-form {
+  padding: 5rem 0;
+  font-size: 2rem;
+}
+.form-wraper {
+  border: 6px solid red;
+}
+.form-wraper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.company-address {
+  border: 4px solid green;
+  float: left;
+  width: 49%;
+}
+.form {
+  border: 2px dotted red;
+  width: 49%;
+  float: right;
 }
